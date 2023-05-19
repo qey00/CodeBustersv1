@@ -26,24 +26,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="gameplay1.cpp" />
     <ClCompile Include="input.cpp" />
     <ClCompile Include="input1.cpp" />
     <ClCompile Include="Main1.cpp" />
+    <ClCompile Include="ScoreBoard.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="gameplay.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="gameplay1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="input1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Main1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="gameplay1.resx">
+      <DependentUpon>gameplay1.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="input1.resx">
       <DependentUpon>input1.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main1.resx">
       <DependentUpon>Main1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScoreBoard.resx">
+      <DependentUpon>ScoreBoard.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup Label="Globals">
