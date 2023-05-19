@@ -39,6 +39,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="input1.resx">
+      <DependentUpon>input1.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main1.resx">
       <DependentUpon>Main1.h</DependentUpon>
     </EmbeddedResource>
